@@ -1,0 +1,114 @@
+.PaymentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PaymentHome{
+    height: 926pt;
+    width: 428pt;
+    background-color: #f5f5f7;
+}
+.paymentRowOne{
+    height: 74pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.paymentRowTwo{
+    height:62pt;
+    display:flex;
+    align-items: center;
+    margin:36pt 19pt 36pt 19pt; 
+    background-color: #ffffff;
+    border-radius:11pt;
+    
+}
+.paymentText{
+    margin-left: 17pt;
+    margin-right: 244pt;
+    font-size: 16pt;
+    font-style:normal;
+    font-weight: bold;
+    font-weight: 700;
+}
+.paymentColTwo{
+    size:19t;
+    font-weight:bold;
+    font-weight: 1000;
+}
+.paymentRowThree{
+    height: 136pt;
+    display: flex;
+    margin: 0 19pt;
+    background-color:#ffffff;
+    border-radius: 11pt;
+
+}
+.paymentBillHeading{
+    font-size: 16pt;
+    font-weight:500;
+    margin-left: 21pt;
+    margin-top: 30pt;
+    font-style: normal;
+    margin-bottom: 10pt;
+    font-weight: bold;
+}
+.paymentOffers{
+    font-size: 16pt;
+    font-weight:500;
+    margin-left: 21pt;
+    margin-top: 30pt;
+    font-style: normal;
+    margin-bottom: 13pt;
+    font-weight: bold;
+
+}
+.paymentRowFour{
+
+    height: 62pt;
+    display: flex;
+    margin: 0 19pt;
+    background-color:#ffffff;
+    border-radius: 11pt;
+
+}
+.paymentCoupon{
+    margin-left: 17pt;
+    margin-top: 20pt;
+    margin-bottom: 19pt;
+    font-size: 16pt;
+    font-weight: 200;
+    font-weight: bold;
+}
+.paymentFeedback{
+    font-size: 16pt;
+    font-weight:500;
+    margin-left: 21pt;
+    margin-top: 45pt;
+    font-style:medium;
+    margin-bottom: 10pt;
+    font-weight: bold;
+
+}
+
+.paymentRowFive{
+    display: flex;
+}
+.paymentCol{
+    width:82pt;
+    height: 82pt;
+    background-color:#ffffff;
+    margin: 15pt;
+    border-radius: 11pt;
+
+}
+.paymentRowSix{
+    height: 95pt;
+    background-color: blue;
+    margin-top: 68pt;
+}
+.paymentPay{
+    background-color: #50c878;
+
+}
