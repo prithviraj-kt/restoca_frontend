@@ -1,16 +1,16 @@
 import './App.css';
-import { BrowserRouter, Route, Router } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './Components/User/Home/Home';
+import Payment from './Components/User/Payment/Payment';
 
 function App() {
   return (
     <div className="App">
      <BrowserRouter>
-     <Router>
-       <Route exact path="/:hotel/:floor/:condition/:table" component={Home} />
-       <Route exact path="/" component={Home} />
-
-     </Router>
+     <Routes>
+       <Route exact path="/:hotelName/:floor/:condition/:table" element={<Home/>} />
+       <Route exact path="/:hotelName/Payment/:Token" element={<Payment/>}/>
+     </Routes>
      </BrowserRouter>
     </div>
   );
