@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/User/Home/Home";
+import Payment from "./Components/User/Payment/Payment";
 
 function App() {
   return (
@@ -9,10 +10,14 @@ function App() {
         <Routes>
           <Route
             exact
-            path="/:hotel/:floor/:condition/:table"
+            path="/:hotelName/:floor/:condition/:table"
             element={<Home />}
           />
-          <Route exact path="/" element={<Home />} />
+          <Route
+            exact
+            path="/:hotelName/Payment/:Token"
+            element={<Payment />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
