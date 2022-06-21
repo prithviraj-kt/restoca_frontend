@@ -15,7 +15,7 @@ function App() {
           />
           <Route
             exact
-            path="/:hotelName/Payment/:Token"
+            path="/:hotelName/payment/:Token"
             element={<Payment />}
           />
         </Routes>
