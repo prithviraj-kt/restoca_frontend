@@ -1,61 +1,49 @@
-import React from 'react'
-import "./Payment.css"
+import React from "react";
+import "./Payment.css";
 function Payment() {
   return (
-    <div className='Container PaymentContainer'>
+    <div className="Container PaymentContainer">
       <div className="PaymentHome">
-      <div className="paymentRowOne">
-        <div className='paymentColOne'>
-          hi
+        <div className="paymentRowOne">
+          <div className="paymentColOne">hi</div>
+          <div className="paymentColTwo">PUSHPAK VIHAR</div>
+          <div className="paymentColThree">hru</div>
         </div>
-        <div className='paymentColTwo'>
-          PUSHPAK VIHAR
+        <div className="paymentRowTwo">
+          <div className="paymentText">Order Summary</div>
         </div>
-        <div className='paymentColThree'>
-          hru
+        <div className="paymentBillHeading">Bill Details</div>
+        <div className="paymentRowThree"></div>
+        <div className="paymentOffers">Offers & Benefits</div>
+        <div className="paymentRowFour">
+          <div className="paymentCoupon">Apply Coupon</div>
         </div>
-        
-      </div>
-      <div className='paymentRowTwo'>
-        <div className='paymentText'>
-          Order Summary
+        <div className="paymentFeedback">Feedback</div>
+        <div className="paymentRowFive">
+          <div className="paymentCol"></div>
+          <div className="paymentCol"></div>
+          <div className="paymentCol"></div>
+          <div className="paymentCol"></div>
         </div>
-      </div>
-      <div className='paymentBillHeading'>
-        Bill Details
-      </div>
-      <div className='paymentRowThree'>
-      </div>
-      <div className='paymentOffers'>
-        Offers & Benefits
-      </div>
-      <div className='paymentRowFour'>
-        <div className='paymentCoupon'>
-          Apply Coupon
+        <div className="paymentRowSix">
+          <button className="paymentPay">
+            Pay Now
+          </button>
         </div>
-      </div>
-      <div className='paymentFeedback'>
-        Feedback
-      </div>
-      <div className='paymentRowFive'>
-        <div className='paymentCol'>
+       <div className="paymentRowSeven">
+        <div className="paymentFooter">
+          Home
         </div>
-        <div className='paymentCol'>
+        <div className="paymentFooter">
+          Track Order
         </div>
-        <div className='paymentCol'>
+        <div className="paymentFooter">
+          Bill
         </div>
-        <div className='paymentCol'>
-        </div>
+       </div>
       </div>
-      <div className='paymentRowSix'>
-        <div className='paymentPay'>
-          Pay Now
-        </div>
-      </div>
-      </div>
-      
     </div>
-  )
+  );
 }
 
-export default Payment
+export default Payment;

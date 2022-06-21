@@ -14,6 +14,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
+
 }
 .paymentRowTwo{
     height:62pt;
@@ -22,7 +23,8 @@
     margin:36pt 19pt 36pt 19pt; 
     background-color: #ffffff;
     border-radius:11pt;
-    
+    box-shadow: 5px 5px 25px 3px rgb(189, 189, 189);
+
 }
 .paymentText{
     margin-left: 17pt;
@@ -43,6 +45,8 @@
     margin: 0 19pt;
     background-color:#ffffff;
     border-radius: 11pt;
+    box-shadow: 5px 5px 25px 3px rgb(189, 189, 189);
+
 
 }
 .paymentBillHeading{
@@ -71,6 +75,8 @@
     margin: 0 19pt;
     background-color:#ffffff;
     border-radius: 11pt;
+    box-shadow: 5px 5px 25px 3px rgb(189, 189, 189);
+
 
 }
 .paymentCoupon{
@@ -94,6 +100,7 @@
 
 .paymentRowFive{
     display: flex;
+
 }
 .paymentCol{
     width:82pt;
@@ -101,14 +108,34 @@
     background-color:#ffffff;
     margin: 15pt;
     border-radius: 11pt;
+    box-shadow: 5px 5px 25px 3px rgb(189, 189, 189);
+
 
 }
 .paymentRowSix{
+    display: flex;
     height: 95pt;
-    background-color: blue;
+    background-color:#ffffff;
     margin-top: 68pt;
+    /* box-shadow: 5px 5px 25px 3px rgb(189, 189, 189); */
+
 }
 .paymentPay{
+    color: white;
+    text-align: left;
+    border: none;
     background-color: #50c878;
-
+    width: 380pt;
+    height: 52pt;
+    border-radius: 7pt;
+    margin: 22pt 22pt 21pt 26pt ;
+    font-size:16pt;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0px 55pt;    
+}
+.paymentRowSeven{
+    height: 74pt;
+    margin-top: 6pt;
+    display: flex;
 }
